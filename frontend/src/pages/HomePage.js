@@ -20,7 +20,7 @@ function HomePage () {
             <ul>
                 <li>
                     MongoDB is used as the primary database to store and manage the application's data. 
-                    It is not available on this build because it is incompatible with Firebase, but the source code is still available on the <a href="https://github.com/Jordanlapp7/firebase-MERN-webapp" target="_blank" rel="noopener noreferrer">Github repo</a>.
+                    It is not available on this build due to incompatibility with Firebase, but the source code is still available on the <a href="https://github.com/Jordanlapp7/MERN-project-firebase" target="_blank" rel="noopener noreferrer">Github repo</a>.
                 </li>
                 <li>
                     Express.js is the backend framework for the application. 
