@@ -1,0 +1,83 @@
+### CREATE five documents.
+POST http://localhost:3000/videogames HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Stardew Valley",
+    "release": "02-26-16",
+    "sold": 20000000
+}
+
+
+### CREATE 2
+POST http://localhost:3000/videogames HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Minecraft",
+    "release": "11-18-11",
+    "sold": 300000000
+}
+
+### CREATE 3
+POST http://localhost:3000/videogames HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Rocket League",
+    "release": "07-07-2015",
+    "sold": 40000000
+}
+
+### CREATE 4
+POST http://localhost:3000/videogames HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Elden Ring",
+    "release": "02-25-22",
+    "sold": 20000000
+}
+
+### CREATE 5
+POST http://localhost:3000/videogames HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Skyrim",
+    "release": "11-11-10",
+    "sold": 60000000
+}
+
+
+### RETRIEVE all documents.
+GET http://localhost:3000/videogames HTTP/1.1
+
+
+
+### RETRIEVE a document by its ID.
+### Replace the following ID with one that exists in the collection.
+GET http://localhost:3000/videogames/6566c17c2ffe6166397d54b5 HTTP/1.1
+
+
+
+### UPDATE one document's year, by ID.
+### Replace the ID in the following request with one that exists
+### and update the year:
+PUT http://localhost:3000/videogames/6567c577346090a90c8a63d3 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Skyrim",
+    "release": "11-11-11",
+    "sold": 60000000
+}
+
+### DELETE by ID (responds with nothing if successful):
+DELETE http://localhost:3000/videogames/6567c577346090a90c8a63d3 HTTP/1.1
+
+
+
+### RETRIEVE all documents (responds with 4 or the original 5):
+GET http://localhost:3000/videogames HTTP/1.1
+
