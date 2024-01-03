@@ -28,16 +28,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-
           <header>
-            <img 
-              src="android-chrome-192x192.png"
-              alt="The letters 'J' and 'L' representing the initials of the website's creator"
-              title="© 2023 Jordan Lapp"
-            />
             <h1>Jordan Lapp</h1>
             <p>Web Dev Portfolio</p>
-            <p><a href="https://github.com/Jordanlapp7" target="_blank" rel="noopener noreferrer">Github</a></p>
+            <a href="https://github.com/Jordanlapp7" target="_blank" rel="noopener noreferrer"><img src="GitHub_Logo.png" alt="GitHub Link" style={{ width:`auto` }} /></a>
           </header>
           <Navigation />
           <main>
