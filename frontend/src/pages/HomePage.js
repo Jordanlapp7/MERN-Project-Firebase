@@ -4,13 +4,12 @@ function HomePage () {
             <h2>Web Dev Portfolio</h2>
             <article>
                 <p>
-                My academic path began with an undergraduate degree in biology at Carnegie Mellon University, where I initially pursued a career in medicine.
-                However, during my tenure at the university, I had the opportunity to enroll in a number of world-class computer science courses. 
-                This exposure shifted my interests, leading me to pursue the field of computer science.
+                My academic path began at Carnegie Mellon University with an undergraduate degree in biological science and a focus on computer science.
+                During my tenure at the university, I had the opportunity to enroll in a number of world-class computer science courses; 
+                This exposure inspired me to fully pursue the field of computer science.
                 </p>
                 <p>
-                Upon completing my degree in biology, it became increasingly clear that my true passion was in the world of technology. 
-                I enrolled in a second undergradutate degree at Oregon State University for computer science, with the objective of starting a career as a full-stack software engineer. 
+                After completing my degree in biology, I enrolled in a second degree at Oregon State University for computer science, with the objective of bolstering the foundational skills I had developed at Carnegie Mellon. 
                 Currently, I am actively seeking internship opportunities for the summer of 2024, excited to apply my knowledge and skills in a practical setting and to continue advancing in my professional journey.
                 </p>
             </article>
