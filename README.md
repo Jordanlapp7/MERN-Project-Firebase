@@ -1,5 +1,5 @@
 Introduction
-Welcome to [Your Project Name], a full-stack Single Page Application developed using the MERN stack (MongoDB, Express, React, Node.js) and deployed on Google Firebase. This application demonstrates modern web development practices and offers a seamless user experience.
+Welcome to my Web Dev portfolio, a full-stack Single Page Application developed using the MERN stack (MongoDB, Express, React, Node.js) and deployed on Google Firebase. This application demonstrates modern web development practices and offers a seamless user experience.
 
 Project Structure
 The frontend is built using React, creating a dynamic and responsive user interface.
@@ -21,4 +21,4 @@ Install the necessary dependencies.
 Although the database is not connected in the deployed version, you can set up a local MongoDB instance to test the backend functionality.
 
 Usage
-Visit the live application [here](mern-stack-jordan-lapp.web.app).
+Visit the live application [here](https://mern-stack-jordan-lapp.web.app).
